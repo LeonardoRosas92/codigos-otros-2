@@ -54,14 +54,7 @@ var elementoLista = document.createElement("div")
 elementoLista.classList.add("elemento-lista")
 lista.appendChild(elementoLista)
 
-var spanNombre = document.createElement("span")
-var inputNombre = document.createElement("input")
-var espacio = document.createElement("br")
-spanNombre.textContent = "Nombre: "
-inputNombre.value = nombre 
-elementoLista.appendChild(spanNombre)
-elementoLista.appendChild(inputNombre)
-elementoLista.appendChild(espacio)
+//Eliminar el codigo repetido
 
 function crearElemento(descripcion, valor) {
 var spanNombre = document.createElement("span")
